@@ -14,8 +14,8 @@
   "license-url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution-text": "British Orienteering",
   "attribution-url": "https://britishorienteering.github.io/",
-  "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us13.list-manage.com\",\"uuid\":\"9e6648557f84731796a4ac873\",\"lid\":\"2167da53bb\"}) })",
+  "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us14.list-manage.com\",\"uuid\":\"d6497a107143b76813974ee8c\",\"lid\":\"be745a137b\"}) })",
   "copyright-notice": "",
   "odi-certificate-number": "",
-  "publish": false
+  "publish": true
 }
