@@ -1,5 +1,5 @@
 {
-  "dataset-site-url": "https://data.britishorienteering.org.uk/",
+  "dataset-site-url": "http://data.britishorienteering.org.uk/",
   "title": "British Orienteering Fixtures",
   "description": "Fixtures from the britishorienteering.org.uk site",
   "publisher-name": "British Orienteering",
@@ -13,7 +13,7 @@
   "license-name": "Creative Commons Attribution Licence (CC-BY v4.0)",
   "license-url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution-text": "British Orienteering",
-  "attribution-url": "https://data.britishorienteering.org.uk/",
+  "attribution-url": "http://data.britishorienteering.org.uk/",
   "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us14.list-manage.com\",\"uuid\":\"d6497a107143b76813974ee8c\",\"lid\":\"be745a137b\"}) })",
   "copyright-notice": "",
   "odi-certificate-number": "",
