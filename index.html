@@ -40,31 +40,47 @@
     <!-- JSON-LD conforming to Google Structured Data specification. -->
     <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "Dataset",
-      "name" : "British Orienteering Fixtures",
-      "id": "http://data.britishorienteering.org.uk/",
+      "@context": [
+        "https://schema.org/",
+        "https://openactive.io/"
+      ],
+      "@type": "Dataset",
+      "@id": "http://data.britishorienteering.org.uk/",
       "url": "http://data.britishorienteering.org.uk/",
-      "description" : "Fixtures from the britishorienteering.org.uk site; published using OpenActive RPDE v0.2.3.",
+      "name": "British Orienteering Fixtures",
+      "description": "Fixtures from the britishorienteering.org.uk site; published using OpenActive RPDE v0.2.3.",
       "keywords":[
-         "Orienteering",
-         "Fixtures",
-         "OpenActive"
+          "Orienteering",
+          "Fixtures",
+          "OpenActive"
       ],
       "license" : "https://creativecommons.org/licenses/by/4.0/",
-      "distribution" : {
-        "@type" : "DataDownload",
-        "encodingFormat" : "application/vnd.openactive.rpde+json; version=0.2.3",
-        "contentUrl" : "https://www.britishorienteering.org.uk/fullfixturesjson.php"
-      },
-      "inLanguage": "en-GB",
+      "distribution": [
+        {
+          "@type" : "DataDownload",
+          "encodingFormat" : "application/vnd.openactive.rpde+json; version={rpdeversion}",
+          "contentUrl" : "https://www.britishorienteering.org.uk/fullfixturesjson.php"
+        }
+      ],
+      "discussionUrl": "https://github.com/britishorienteering/opendata/issues",
+      "documentation": "https://github.com/britishorienteering/opendata",
+      "inLanguage": [
+        "en-GB"
+      ],
       "publisher": {
-         "@type": "Organization", 
-         "name": "British Orienteering",
-         "url": "https://www.britishorienteering.org.uk/",
-         "logo": "http://data.britishorienteering.org.uk/images/logo.png"
+        "@type": "Organization",
+        "name": "British Orienteering",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "http://data.britishorienteering.org.uk/images/logo.png"
+        },
+        "url": "https://www.britishorienteering.org.uk/"
       },
-      "datePublished" : "2016-09-14T00:00:00.000Z"
+      "datePublished": "2016-09-14T00:00:00.000Z",
+      "backgroundImage": {
+        "@type": "ImageObject",
+        "url": "http://data.britishorienteering.org.uk/images/bg.jpg"
+      }
     }
     </script>
   </head>
